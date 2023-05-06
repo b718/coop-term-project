@@ -14,6 +14,13 @@ function App() {
 
       <FirstTerm />
       <SecondTerm />
+
+      <Center>
+        <h1 style={{ maxWidth: "40rem", textAlign: "left" }}>
+          To whoever reads this, thank you for the expereince and opporuntiy you
+          have provided me!
+        </h1>
+      </Center>
     </div>
   );
 }

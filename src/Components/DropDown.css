@@ -1,12 +1,12 @@
 .drop-down {
-  background-color: aliceblue;
-  padding: 2rem 10rem 2rem 10rem;
+  background-color: #003468;
+  color: white;
   max-width: 40rem;
+  margin-top: 1rem;
+  text-align: left;
 }
 
 .drop-down-content {
-  background-color: aliceblue;
-
   height: 0px;
   overflow: hidden;
   transition: height ease 1s;
@@ -14,4 +14,10 @@
 
 .drop-down-title {
   font-size: 1rem;
+  cursor: pointer;
+}
+
+p {
+  word-wrap: break-word;
+  margin: 0.5rem 1rem 1rem 1rem;
 }

@@ -13,8 +13,12 @@ const DropDown: React.FC<Props> = ({ text, title }) => {
   return (
     <>
       <Center>
-        <div className="drop-down" onClick={() => setClick(!click)}>
-          <h1 className="drop-down-title">{title}</h1>
+        <div className="drop-down">
+          <Center>
+            <h1 className="drop-down-title" onClick={() => setClick(!click)}>
+              {title}
+            </h1>
+          </Center>
           <div
             className="drop-down-content"
             ref={parentRef}
@@ -28,7 +32,7 @@ const DropDown: React.FC<Props> = ({ text, title }) => {
                   }
             }
           >
-            <div>this is amazing!</div>
+            <p>{text}</p>
           </div>
         </div>
       </Center>
