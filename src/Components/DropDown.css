@@ -1,19 +1,17 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-.drop-down-grid-wrapper {
-  display: grid;
-  grid-template-rows: 0fr;
-  transition: grid-template-rows ease 500ms;
+.drop-down {
+  background-color: aliceblue;
+  padding: 2rem 10rem 2rem 10rem;
+  max-width: 40rem;
 }
 
-.drop-down-grid-wrapper-active {
-  grid-template-rows: 1fr;
-  transition: ease 500ms;
-}
+.drop-down-content {
+  background-color: aliceblue;
 
-.drop-down-grid-inner {
+  height: 0px;
   overflow: hidden;
-  display: block;
+  transition: height ease 1s;
+}
+
+.drop-down-title {
+  font-size: 1rem;
 }
