@@ -22,7 +22,7 @@ const SecondTerm = () => {
         title="What I Improved On"
       />
       <DropDown
-        text="When Jeevan joined the team during my second term, I felt a significant change in the dynamic of the QA team. As someone who generally welcomes change, I must admit that I had some difficulty adjusting to the new team member at first. I tend to take time to build relationships with people, and my initial impressions with anyone are not the best. However, as we continued to work together, our relationship improved and we left on a good note. Working with Jeevan, Nati, and Sophia taught me a lot about the importance of soft skills, and they gave me valuable advice on how to improve in that area. I'm grateful for their guidance, and I will carry those lessons with me in my future endeavors. Thank you all for the support, and I hope our paths cross again someday."
+        text="When Jeevan joined the team during my second term, I felt a significant change in the dynamic of the QA team. As someone who generally welcomes change, I must admit that I had some difficulty adjusting to the new team member at first. I tend to take time to build relationships with people, and my first impressions with individuals are not the best. However, as we continued to work together, our relationship improved and we left on a good note. Working with Jeevan, Nati, and Sophia taught me a lot about the importance of soft skills, and they gave me valuable advice on how to improve in that area. I'm grateful for their guidance, and I will carry those lessons with me in my future endeavors. Thank you all for the support, and I hope our paths cross again someday."
         title="How It Will Help Me"
       />{" "}
     </>
