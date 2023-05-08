@@ -17,8 +17,8 @@ function App() {
 
       <Center>
         <h1 style={{ maxWidth: "40rem", textAlign: "left" }}>
-          To whoever reads this, thank you for the expereince and opporuntiy you
-          have provided me!
+          To whoever reads this, thank you for the experience and opportunity
+          you have provided me!
         </h1>
       </Center>
     </div>
