@@ -16,7 +16,14 @@ function App() {
       <SecondTerm />
 
       <Center>
-        <h1 style={{ maxWidth: "40rem", textAlign: "left" }}>
+        <h1
+          style={{
+            maxWidth: "fit-content",
+            textAlign: "left",
+            fontSize: "1.5rem",
+            marginTop: "4rem",
+          }}
+        >
           To whoever reads this, thank you for the experience and opportunity
           you have provided me!
         </h1>

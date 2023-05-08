@@ -6,7 +6,10 @@ interface Props {
   text: string;
   title: string;
 }
-const DropDown: React.FC<Props> = ({ text, title }) => {
+const DropDown: React.FC<{ text: string; title: string }> = ({
+  text,
+  title,
+}) => {
   const [click, setClick] = useState<Boolean>(false);
   const parentRef = useRef<HTMLInputElement>(null);
 
